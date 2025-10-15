@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{ asset('admin/assets/images/favicon.ico') }}">
-    <title>Garibook VMS - Dashboard</title>
+    <title>XYZ - Dashboard</title>
 
     <!-- Core CSS -->
     <link rel="stylesheet" href="{{ asset('admin/assets/css/vendors_css.css') }}">
@@ -57,7 +57,6 @@
         </script> <a href="{{ env('APP_URL') }}">xyz</a>. All Rights
         Reserved.
     </footer>
-    <!-- Side panel -->
     <!-- quick_user_toggle -->
     <div class="modal modal-right fade" id="quick_user_toggle" tabindex="-1">
         <div class="modal-dialog">
